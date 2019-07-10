@@ -98,9 +98,11 @@ header{
 }
 
 .services{
-    padding: 10px 0px;
+    padding: 20px 0px;
 }
-
+h1{
+    font-size: 2rem;
+}
 .services-header-img {
     margin: 20px 0px 0px;
 }
@@ -122,6 +124,15 @@ header{
   text-align: justify;
   background-color: whitesmoke;
   margin-bottom: 5%;
+}
+.bottom{
+    display:flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.bottom-content{
+    width: 45%;
 }
 
 ul {
