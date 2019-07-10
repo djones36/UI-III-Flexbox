@@ -65,21 +65,28 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .site-wrapper{
+    margin: 10px auto 0 auto;
+    z-index: 1;
 	width: 1024px;
 	display: flex;
-	align-items: center;
 	flex-direction: column;
 }
-header{
+.navbar{
 	display: flex;
-	justify-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.15rem;
+}
+.navbar a:hover {
+    color: rgb(176, 177, 178);
 }
 
-header nav {
-	display: flex;
-	
-}
-header nav a{
-	justify-content: space-between;
-	/* margin: 20px; */
+.logo{
+    margin-left: 50px;
 }
