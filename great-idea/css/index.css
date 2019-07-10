@@ -69,7 +69,7 @@ h2{
 }
 
 h1{
-    font-size: 2rem;
+    font-size: 5rem;
 }
 .site-wrapper{
     margin: 10px auto 0 auto;
@@ -94,4 +94,19 @@ h1{
 
 .logo{
     margin-left: 50px;
+}
+
+button{
+    padding: 10px;
+    width: 25%;
+    margin-top: 25px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    font-size: 14px;
+  }
+
+button:hover{
+    background-color: grey;
+    color:white;
+    transition-duration: 0.5s;
 }
