@@ -156,6 +156,7 @@ button{
     background-color: whitesmoke;
     border: 1px solid black;
     border-radius: 8%;
+    cursor: pointer;
   }
 
 button:hover{

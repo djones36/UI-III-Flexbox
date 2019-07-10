@@ -65,9 +65,11 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 h2{
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
-
+p{
+	font-size: 1.25rem;
+}
 h1{
     font-size: 5rem;
 }
@@ -102,7 +104,8 @@ button{
     margin-top: 25px;
     background-color: whitesmoke;
     border: 1px solid black;
-    font-size: 14px;
+	font-size: 14px;
+	cursor: pointer;
   }
 
 button:hover{
@@ -133,4 +136,49 @@ button:hover{
 	width: 40%;
 	margin-top: 5%;
 	padding: 5%;
+}
+
+.main .top-content{
+	display:flex;
+	justify-content: space-evenly;
+}
+.main{
+	margin:0 0 5%;
+	border-bottom: 2px solid black;
+	padding: 20px;
+}
+.main .text-top{
+	padding: 10px;
+	width:70%;
+}
+.main .bottom-content{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.main .middle-img {
+    display: block;
+    margin: 5% auto;
+}
+
+.text-bottom{
+	padding-right: 20px;
+	width: 45%
+}
+
+footer p{
+	text-align: center;
+	
+}
+
+.contact{
+	display:flex;
+	flex-direction: column;
+}
+address p{
+	padding-top: 2%;
+}
+
+.contact address a{
+	padding-top:20px
 }
