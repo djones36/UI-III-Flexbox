@@ -64,6 +64,9 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+h2{
+    font-size: 1.25rem;
+}
 .site-wrapper{
     margin: 10px auto 0 auto;
     z-index: 1;
@@ -103,7 +106,22 @@ header{
 }
 
 .content-parent{
-    display
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content:space-between;
+  border-bottom: 3px solid black;
+  margin: 20px 0px;
+}
+
+.child{
+  border: 1px solid black;
+  padding: 2.5%;
+  width: 48%;
+  height: 240px;
+  text-align: justify;
+  background-color: whitesmoke;
+  margin-bottom: 5%;
 }
 
 ul {
