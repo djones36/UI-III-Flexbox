@@ -64,19 +64,24 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+h2{
+    font-size: 1.25rem;
+}
+
+h1{
+    font-size: 2rem;
+}
 .site-wrapper{
     margin: 10px auto 0 auto;
     z-index: 1;
-	width: 1024px;
+	width: 880px;
 	display: flex;
 	flex-direction: column;
 }
 .navbar{
 	display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-    
+    align-items: center;   
 }
 .navbar a{
     text-decoration: none;
