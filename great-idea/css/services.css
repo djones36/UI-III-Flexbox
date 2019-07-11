@@ -65,13 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 h2{
-    font-size: 1.5rem;
-}
-p{
-	font-size: 1.25rem;
-}
-h1{
-    font-size: 5rem;
+    font-size: 1.25rem;
 }
 .site-wrapper{
     margin: 10px auto 0 auto;
@@ -98,87 +92,75 @@ h1{
     margin-left: 50px;
 }
 
+header{
+    border-bottom: 2px solid black;
+    margin: 10px 0px;
+}
+
+.services{
+    padding: 20px 0px;
+}
+h1{
+    font-size: 2rem;
+}
+.services-header-img {
+    margin: 20px 0px 0px;
+}
+
+.content-parent{
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content:space-between;
+  border-bottom: 3px solid black;
+  margin: 20px 0px;
+}
+
+.child{
+  border: 1px solid black;
+  padding: 2.5%;
+  width: 48%;
+  height: 240px;
+  text-align: justify;
+  background-color: whitesmoke;
+  margin-bottom: 5%;
+}
+.bottom{
+    display:flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.bottom-content{
+    width: 45%;
+}
+
+ul {
+    list-style-type: disc;
+    padding: 20px;
+  }
+  
+  li{
+    padding: 10px;
+  }
+  
+footer p{
+    text-align:center;
+    margin: 10%;
+}
+
 button{
     padding: 10px;
-    width: 175px;
+    width: 40%;
     margin-top: 25px;
     background-color: whitesmoke;
     border: 1px solid black;
-	font-size: 14px;
-	cursor: pointer;
+    border-radius: 8%;
+    cursor: pointer;
   }
 
 button:hover{
     background-color: grey;
     color:white;
     transition-duration: 0.5s;
-}
-.home{
-	display: flex;
-	flex-flow: wrap;
-	justify-content: center;
-	border-bottom: 2px solid black;
-	margin-bottom: 5%;
-}
-
-.home-child1{
-	width: 40%;
-	margin-top: 5%;
-	padding: 5%;
-	align-content: center;
-	text-align: center;
-	display: flex;
-    justify-content: center;
-    flex-flow: column;
-    align-items: center;
-}
-.home-child{
-	width: 40%;
-	margin-top: 5%;
-	padding: 5%;
-}
-
-.main .top-content{
-	display:flex;
-	justify-content: space-evenly;
-}
-.main{
-	margin:0 0 5%;
-	border-bottom: 2px solid black;
-	padding: 20px;
-}
-.main .text-top{
-	padding: 10px;
-	width:70%;
-}
-.main .bottom-content{
-	display: flex;
-	justify-content: space-evenly;
-}
-
-.main .middle-img {
-    display: block;
-    margin: 5% auto;
-}
-
-.text-bottom{
-	padding-right: 20px;
-	width: 45%
-}
-
-footer p{
-	text-align: center;
-	
-}
-
-.contact{
-	display:flex;
-	flex-direction: column;
-}
-address p{
-	padding-top: 2%;
-}
-
-.contact address a{
-	padding-top:20px
 }
